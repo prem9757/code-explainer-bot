@@ -5,7 +5,7 @@ import os
 import base64
 
 # Set OpenAI API key
-openai_api_key = os.getenv("OPENAI_API_KEY") or "your-api-key-here"
+openai_api_key = os.getenv("OPENAI_API_KEY") or "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"
 
 # Create OpenAI client (for openai>=1.0.0)
 client = openai.OpenAI(api_key=openai_api_key)
