@@ -5,7 +5,7 @@ import os
 import base64
 
 # Set your OpenAI API key
-openai.api_key = "your-api-key"
+openai.api_key = "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"
 
 # Function to explain code using OpenAI
 def explain_code(code):
